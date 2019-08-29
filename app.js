@@ -26,3 +26,8 @@ window.onscroll = function(){
         header.classList.remove('active');
     }
     };
+
+// Smooth scroll script
+const scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 800
+  });
