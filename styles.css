@@ -288,6 +288,15 @@ section {
   transition: all 0.5s;
 }
 
+.youtube {
+  position: absolute;
+  top: 20rem;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid black;
+  box-shadow: 3px 4px rgba(0, 0, 0, 0.1);
+}
+
 .project-one {
   text-align: center;
   padding: 1rem;
