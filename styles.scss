@@ -372,6 +372,7 @@ section{
     & a{
         margin: 2rem;
         font-size: 2rem;
+        z-index: 900;
 
         & :hover{
             color: rgb(72, 160, 255);

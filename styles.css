@@ -315,6 +315,7 @@ section {
 .project-two a {
   margin: 2rem;
   font-size: 2rem;
+  z-index: 900;
 }
 .project-two a :hover {
   color: #48a0ff;
