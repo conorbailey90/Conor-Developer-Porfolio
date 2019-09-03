@@ -121,7 +121,7 @@ nav{
         position: absolute;
         width: 100%;
         height: 40%;
-        top: 20%;
+        top: 10%;
         
         & li a{
             display: block;
@@ -134,8 +134,9 @@ nav{
 
     .nav-social-media{
         position: absolute;
-        top: 70%;
+        top: 80%;
         left:0;
+        height: 2rem;
         width: 100%;
         text-align: center;
 
@@ -243,6 +244,35 @@ section{
     }
 }
 
+
+.cert-link{
+    position: absolute;
+    top: 23rem;
+    left: 50%;
+    width: 10rem;
+    height: 2.5rem;
+    text-align: center;
+    padding: 0.5rem;
+    transform: translate(-50%);
+    border: 1px solid black;
+    background: #ffffff;
+    box-shadow: 3px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+
+    &:hover{
+        box-shadow: 0px 0px  rgba(0, 0, 0, 0.1);
+        transition: all 0.5s;
+        background: #000000;
+        opacity: 0.8;
+
+        & p{
+            color: #ffffff;
+        }
+
+    }
+}
+
+
 .social-media{
     position: absolute;
     display: block;
@@ -309,6 +339,47 @@ section{
             transition: all 0.5s;
         }
     }
+}
+
+.project-one{
+    text-align: center;
+    padding: 1rem;
+
+    & p{
+        margin: .5rem;
+        font-size: .7rem;
+
+    }
+    & a{
+        margin: 0 1rem 0 1rem;
+        font-size: 1.3rem;
+
+        & :hover{
+            color: rgb(72, 160, 255);
+            transition: all 0.5s;
+        }
+    }
+}
+
+.project-two{
+    text-align: center;
+    padding: 1rem;
+
+    & p{
+        margin: 1rem;
+    }
+
+    & a{
+        margin: 2rem;
+        font-size: 2rem;
+
+        & :hover{
+            color: rgb(72, 160, 255);
+            transition: all 0.5s;
+        }
+    }
+
+
 }
 
 
@@ -383,7 +454,7 @@ footer{
             position: absolute;
             width: 100%;
             height: 40%;
-            top: 20%;
+            top: 10%;
             
             & li a{
                 display: block;
@@ -396,7 +467,7 @@ footer{
     
         .nav-social-media{
             position: absolute;
-            top: 70%;
+            top: 80%;
             left:0;
             width: 100%;
             text-align: center;
