@@ -10,6 +10,7 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Conor Bailey</title>
@@ -77,7 +78,7 @@
             
 
             <div class="social-media">
-                <a target="_blank" href="https://www.facebook.com/conor.bailey1"><i class="fab fa-facebook"></i></a>
+            <a target="_blank" href="https://www.facebook.com/conor.bailey1"><i class="fab fa-facebook"></i></a>
             <a target="_blank" href="https://twitter.com/conorbailey"><i class="fab fa-twitter"></i></a>
             <a target="_blank" href="https://www.youtube.com/channel/UCcNEvbajb34cXufYddZ57og"><i class="fab fa-youtube"></i></a>
             <a target="_blank" href="https://www.instagram.com/conorbeats/"><i class="fab fa-instagram"></i></a>
@@ -88,7 +89,7 @@
 
 
     <section id="about">
-        <div class="bio">
+        <div data-aos="fade-left" class="bio">
             <h1>About Me</h1></br>
     
              <p>I have a large passion for front end and back end web development. I graduated from the Udacity Full Stack Web Developer Nanodegree in August 2019. I am comfortable working with the following technologies:</p> </br>  
@@ -116,14 +117,14 @@
     <section id="portfolio">
 
     <div class="project-container">
-        <div class="project-one">
+        <div data-aos="fade-right" class="project-one">
             <h3>Item Catalogue</h3>
             <p>CRUD web application made using Python / Flask and an SQL database. Google Oauth 2 authentication has been implemented.</p>
             <a target="_blank" href="http://ec2-35-178-196-68.eu-west-2.compute.amazonaws.com/catalogue/"><i class="fas fa-globe"></i></a>
             <a target="_blank" href="https://github.com/conorbailey90/item-catalogue"><i class="fab fa-github"></i></a>
             
         </div>
-        <div class="project-two">
+        <div data-aos="fade-left" class="project-two">
             <p>Please visit my GitHub page for further examples of my work.</p>
             <a target="_blank" href="https://github.com/conorbailey90"><i class="fab fa-github"></i></a>
         </div>
@@ -133,7 +134,7 @@
 </section>
 
     <section id="contact">
-        <div class="contact">
+        <div data-aos="fade-right" class="contact">
             <h1>Contact Me</h1><br>
             <p>If you would like more information then please do not hesitate to contact me.</p></br>
             <p>E-mail: conbailey90@gmail.com</p></br>
@@ -147,5 +148,9 @@
 
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
