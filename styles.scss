@@ -323,8 +323,7 @@ section{
     width: 80%;
     height: 30rem;
     grid-gap: .5rem;
-    // background: #000000;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); 
     grid-auto-rows: 10rem;
 
     & div{
@@ -346,10 +345,6 @@ section{
     top: 20rem;
     left: 50%;
     transform: translate(-50%);
-    // border: 2px solid black;
-    // box-shadow: 3px 4px rgba(0, 0, 0, 0.1);
-
-
 }
 
 .project-one{
@@ -374,6 +369,27 @@ section{
 }
 
 .project-two{
+    text-align: center;
+    padding: 1rem;
+
+    & p{
+        margin: 0.5rem;
+        font-size: .8rem;
+    }
+
+    & a{
+        margin: 2rem;
+        font-size: 2rem;
+        z-index: 900;
+
+        & :hover{
+            color: rgb(72, 160, 255);
+            transition: all 0.5s;
+        }
+    }
+}
+
+.project-three{
     text-align: center;
     padding: 1rem;
 
@@ -583,8 +599,7 @@ footer{
         left: 50%;
         transform: translate(-50%);
         width: 70%;
-        // border: 2px solid black;
-        // box-shadow: 3px 4px rgba(0, 0, 0, 0.1);
+
 
         & iframe{
             width: 100%;
@@ -592,5 +607,32 @@ footer{
         }
     
     
+    }
+
+    .project-container{
+        position: absolute;
+        display: grid;
+        top: 5rem;
+        left: 50%;
+        padding: 1rem;
+        transform: translate(-50%);
+        width: 80%;
+        height: 30rem;
+        grid-gap: .5rem;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); 
+        grid-auto-rows: 10rem;
+    
+        & div{
+            background:#ffffff;
+            border: rgba(0, 0, 0, 0.2) 1px solid;
+            box-shadow: 3px 4px rgba(0, 0, 0, 0.1);
+            transition: all 0.5s;
+    
+            &:hover{
+                box-shadow: 0px 0px rgba(0, 0, 0, 0.1);
+                background:#efefef;
+                transition: all 0.5s;
+            }
+        }
     }
 }
