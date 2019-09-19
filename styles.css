@@ -273,7 +273,7 @@ section {
   width: 80%;
   height: 30rem;
   grid-gap: 0.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   grid-auto-rows: 10rem;
 }
 .project-container div {
