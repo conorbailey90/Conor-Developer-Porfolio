@@ -13,18 +13,9 @@ menuClose.addEventListener('click', menuToggle);
 //Splash Screen
 window.addEventListener('DOMContentLoaded', (e)=>{
     setTimeout(()=>{
-        splash.classList.add('hide')}, 2000);
+        splash.classList.add('hide')}, 3000);
 });
 
-let splashLogo = anime({
-    targets: '.splash-logo',
-    opacity: [0, 100],
-    easing: 'easeInOutExpo',
-    duration: 2000,
-    translateY: window.innerHeight*-0.49,
-    delay: 100,
-    scale: 0.6,
-})
 
 
 navLink.forEach(function(elem) {
