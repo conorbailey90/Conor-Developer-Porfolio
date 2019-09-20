@@ -32,6 +32,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     animation: splashAnimation 3s forwards;
+    -webkit-animation: splashAnimation 3s forwards;
 }
 
 a:hover {
