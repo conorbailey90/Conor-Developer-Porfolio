@@ -32,8 +32,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     animation: splashAnimation 3s forwards;
-    -webkit-animation: splashAnimation 3s forwards;
-    
+    -webkit-animation-name: splashAnimation;
+    -webkit-animation-duration: 3s;
+
 }
 
 a:hover {
@@ -68,24 +69,24 @@ a:hover {
 
 @-webkit-keyframes splashAnimation{
     0%{
-        -webkit-opacity: 0;
-        -webkit-font-size: 0.5rem;
-        -webkit-position: absolute;
-        -webkit-top: 50%;
+        opacity: 0;
+        font-size: 0.5rem;
+        position: absolute;
+        top: 50%;
     }
     50%{
-        -webkit-position: absolute;
-        -webkit-opacity: 1;
-        -webkit-top: 50%;
-        -webkit-font-size: 2rem;
+        position: absolute;
+        opacity: 1;
+        top: 50%;
+        font-size: 2rem;
 
     }
 
     100%{
-        -webkit-position: absolute;
-        -webkit-top: 1.7rem;
-        -webkit-opacity: 1;
-        -webkit-font-size: 1.2rem;
+        position: absolute;
+        top: 1.7rem;
+        opacity: 1;
+        font-size: 1.2rem;
         
     }
 }
