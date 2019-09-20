@@ -57,6 +57,26 @@ a:hover {
     font-size: 1.2rem;
   }
 }
+@-webkit-keyframes splashAnimation {
+  0% {
+    -webkit-opacity: 0;
+    -webkit-font-size: 0.5rem;
+    -webkit-position: absolute;
+    -webkit-top: 50%;
+  }
+  50% {
+    -webkit-position: absolute;
+    -webkit-opacity: 1;
+    -webkit-top: 50%;
+    -webkit-font-size: 2rem;
+  }
+  100% {
+    -webkit-position: absolute;
+    -webkit-top: 1.7rem;
+    -webkit-opacity: 1;
+    -webkit-font-size: 1.2rem;
+  }
+}
 .background {
   position: fixed;
   top: 0;
