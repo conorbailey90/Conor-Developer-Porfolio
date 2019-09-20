@@ -14,7 +14,7 @@ menuClose.addEventListener('click', menuToggle);
 //Splash Screen
 window.addEventListener('DOMContentLoaded', (e)=>{
     setTimeout(()=>{
-        splash.classList.add('hide')}, 2500);
+        splash.classList.add('hide')}, 1000);
 });
 
 window.addEventListener('DOMContentLoaded', (e)=>{
