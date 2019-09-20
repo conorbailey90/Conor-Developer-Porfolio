@@ -32,10 +32,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     animation: splashAnimation 3s forwards;
-    -webkit-animation-name: splashAnimation;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-fill-mode: forwards;
-    -webkit-animation-delay: 0.01s;
+    -webkit-animation: splashAnimation 3s forwards;
+    
 }
 
 a:hover {
@@ -66,7 +64,7 @@ a:hover {
         font-size: 1.2rem;
         
     }
-}
+};
 
 @-webkit-keyframes splashAnimation{
     0%{
