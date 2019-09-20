@@ -6,6 +6,7 @@ const nav = document.querySelector('.nav');
 const navLink = document.querySelectorAll(".nav-link");
 const header = document.querySelector('.header');
 const splash = document.querySelector('.splash');
+const splashLogo = document.querySelector('.splash-logo');
 
 menuOpen.addEventListener('click', menuToggle);
 menuClose.addEventListener('click', menuToggle);
@@ -13,7 +14,12 @@ menuClose.addEventListener('click', menuToggle);
 //Splash Screen
 window.addEventListener('DOMContentLoaded', (e)=>{
     setTimeout(()=>{
-        splash.classList.add('hide')}, 3000);
+        splash.classList.add('hide')}, 2500);
+});
+
+window.addEventListener('DOMContentLoaded', (e)=>{
+    setTimeout(()=>{
+        splashLogo.classList.add('load')}, 500);
 });
 
 
