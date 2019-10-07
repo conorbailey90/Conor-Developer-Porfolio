@@ -28,26 +28,51 @@
   transition: all 0.8s;
 }
 
-.splash-logo {
-  position: relative;
+.logo {
+  width: 70%;
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: fadeIn 2.5s forwards;
-}
-.splash-logo.load {
-  position: relative;
-  font-size: 1.2rem;
-  top: 1.8rem;
-  transition: 0.3s;
+  animation: text 4s 1 forwards;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
+.text {
+  width: 100%;
+}
+
+text {
+  stroke-dasharray: 800;
+  stroke-dashoffset: -800;
+}
+
+text.is-active {
+  animation: text 4s 1 forwards;
+}
+
+@keyframes text {
+  0% {
+    position: absolute;
+    width: 0;
+    top: 45%;
   }
-  to {
-    opacity: 1;
+  70% {
+    width: 70%;
+    position: absolute;
+    top: 45%;
+    fill: transparent;
+    stroke-dashoffset: 0;
+    stroke-width: 1;
+  }
+  75% {
+    position: absolute;
+    stroke-dashoffset: 0;
+    stroke-width: 1;
+  }
+  100% {
+    position: absolute;
+    fill: black;
+    stroke-width: 0;
+    width: 70%;
   }
 }
 a:hover {
