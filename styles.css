@@ -29,6 +29,7 @@
 }
 
 .logo {
+  position: absolute;
   width: 70%;
   top: 45%;
   left: 50%;
@@ -51,25 +52,20 @@ text.is-active {
 
 @keyframes text {
   0% {
-    position: absolute;
     width: 0;
     top: 45%;
   }
   70% {
     width: 70%;
-    position: absolute;
-    top: 45%;
     fill: transparent;
     stroke-dashoffset: 0;
     stroke-width: 1;
   }
   75% {
-    position: absolute;
     stroke-dashoffset: 0;
     stroke-width: 1;
   }
   100% {
-    position: absolute;
     fill: black;
     stroke-width: 0;
     width: 70%;
