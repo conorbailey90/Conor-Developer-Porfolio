@@ -35,7 +35,7 @@
 
 .logo{
     position: absolute;
-    width: 70%;
+    width: 50%;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -43,7 +43,7 @@
 }
 
 .text{
-    width: 100%;
+    width: 60%;
 }
 
 text{
@@ -166,6 +166,7 @@ nav{
     height: 100%;
     background-color: white;
     border-right: rgba(0, 0, 0, 0.2) 1px solid;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
     z-index: 100;
     transition: all 0.5s;
 
@@ -191,6 +192,7 @@ nav{
     height: 100%;
     background-color: white;
     border-right: rgba(0, 0, 0, 0.2) 1px solid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.24);
     z-index: 900;
     transition: all 0.5s;
 
@@ -252,8 +254,6 @@ nav{
             height: 2px;
             background-color: black;
             border-radius: 40%;
-
-            
         }
 
     }
@@ -305,7 +305,7 @@ section{
     transform: translate(-50%);
     border: 1px solid black;
     background: #ffffff;
-    box-shadow: 3px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.1);
     transition: all 0.5s;
 
     &:hover{
@@ -333,7 +333,7 @@ section{
     transform: translate(-50%);
     border: 1px solid black;
     background: #ffffff;
-    box-shadow: 3px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.1);
     transition: all 0.5s;
 
     &:hover{
@@ -382,10 +382,7 @@ section{
     background: #ffffff;
     opacity: 0.8;
     border: rgba(0, 0, 0, 0.2) 1px solid;
-    box-shadow: 3px 4px rgba(0, 0, 0, 0.1);
-
-
-
+    box-shadow: 3px 4px 5px  rgba(0, 0, 0, 0.1);
 }
 
 // Porfolio page
@@ -403,16 +400,16 @@ section{
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); 
     grid-auto-rows: 10rem;
 
-    & div{
+    & .box{
         background:#ffffff;
-        border: rgba(0, 0, 0, 0.2) 1px solid;
-        box-shadow: 3px 4px rgba(0, 0, 0, 0.1);
-        transition: all 0.5s;
+        border: rgba(0, 0, 0, 0.178) 1px solid;
+        box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.1);
+        transition: all 0.5s ease-in-out;
 
         &:hover{
             box-shadow: 0px 0px rgba(0, 0, 0, 0.1);
             background:#efefef;
-            transition: all 0.5s;
+            transition: 0.5s;
         }
     }
 }
@@ -500,7 +497,7 @@ section{
     background: #ffffff;
     opacity: 0.8;
     border: rgba(0, 0, 0, 0.2) 1px solid;
-    box-shadow: 3px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.1);
 
 }
 
